@@ -128,8 +128,6 @@ class PretixRestApi {
 
     options = { ...options, ...this.axiosConfig };
 
-    console.log('options', options);
-
     return axios(options);
   }
   /**
